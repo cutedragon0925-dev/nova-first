@@ -33,11 +33,11 @@ from molecules import MoleculeManager
 from tools import SynthonLibrary
 
 # ── tunables ──────────────────────────────────────────────────────────────────
-N_A_DEFAULT  = 200   # population A capacity  (moving-window of scored mols)
-N_B_DEFAULT  = 100   # population B capacity  (elite pool for tabu search)
-T_EX_DEFAULT = 3     # exchange every T_ex iterations
-M_EX_DEFAULT = 20    # molecules exchanged per cycle
-TABU_MAXLEN  = 50    # maximum tabu entries per component role
+N_A_DEFAULT  = 1200   # population A capacity  (moving-window of scored mols)
+N_B_DEFAULT  = 1000   # population B capacity  (elite pool for tabu search)
+T_EX_DEFAULT = 2     # exchange every T_ex iterations
+M_EX_DEFAULT = 100    # molecules exchanged per cycle
+TABU_MAXLEN  = 100    # maximum tabu entries per component role
 # ──────────────────────────────────────────────────────────────────────────────
 
 
